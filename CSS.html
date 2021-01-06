@@ -1,0 +1,177 @@
+<!--CSS
+    Syntax:
+    selector{
+        property:value;
+    }
+    eg:
+    selector-html tags,class,id
+    color:red
+    
+1.Internal CSS
+    eg:
+    <style>
+    h1{
+        color:red;
+    }
+    </style>
+
+2.External CSS
+
+3.Inline CSS
+
+
+
+
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>form</title>
+        <link rel="stylesheet"
+        href="basic.css">
+        <style>
+            h1{
+                color: rgb(205, 43, 226);
+                font-size: 50px;
+                font-family:cursive;
+               /* text-align: center;*/
+                text-decoration: underline;
+                text-transform: uppercase;
+                text-decoration-color: rgb(236, 221, 11);
+                text-decoration-style: dotted;
+                
+            }
+            form{
+                color: rgb(236, 19, 56);
+                text-align: center;
+                font-size: 20px;
+                text-transform: capitalize;
+            }
+            
+            body{
+                background-color: burlywood;
+                background-image: url("E:/pramod/MOBILE/Instagram/IMG_20180819_181031_780.jpg");
+                background-position: top;
+                background-size: 720px;
+                background-repeat: no-repeat;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+          <ul>
+              <li><a href="https://facebook.com">Facebook</a></li>
+              <li><a href="https://instagram.com">Instagram</a></li>
+              <li><a href="https://whatsapp.com">Whatsapp</a></li>
+              <li style="float: right;"><a href="https://twitter.com">twitter</a></li>
+          </ul>
+          </div>
+          <br>
+
+        <h1>Application Form</h1>
+    <form action="" method="GET">
+        <div>
+            <label>name</label>
+            <input type="text" placeholder="Enter First Name">
+        </div><br>
+        <div>
+            <label>last Name</label>
+            <input type="text" placeholder="Enter last Name">
+        </div><br>
+
+        <div id="banner">
+            Id selector
+        </div>
+
+
+        <div class="new">Happy New Year</div>
+
+        <div class="box">rectangle</div>
+
+        <div class="box1">
+            <div class="box2">
+                <div class="box3">
+                    
+                </div>
+
+            </div>
+        </div>
+       <br>
+       <a class="hyer" href="">Facebook</a> 
+       <a class="inst" href="https://instagram.com" target="_blank">Instagram</a>
+
+
+       <table>
+           <tr>
+               <th>Name</th>
+               <th>email</th>
+               <th>link</th>
+           </tr>
+           <tr>
+               <td>Vena</td>
+               <td>vena@gmail.com</td>
+               <td>vena.com</td>
+           </tr>
+           <tr>
+            <td>Vena</td>
+            <td>vena@gmail.com</td>
+            <td>vena.com</td>
+        </tr>
+        <tr>
+            <td>Vena</td>
+            <td>vena@gmail.com</td>
+            <td>vena.com</td>
+        </tr>
+       </table>
+
+
+ <!--Descedant combinator-->
+   <div>
+       <p class="comb">Java Developer</p>
+       <p class="comb">Web Developer</p>
+       <h6>J2EE Developer</h6>
+   </div>
+
+   <div>
+    <p>Java Developer</p>
+    <p>Web Developer</p>
+    <p>J2EE Developer</p>
+    <span>
+        <p>sql Developer</p>
+    </span>
+</div>
+
+
+<p>Adjacent Sibling Selector</p>
+<p>Mock</p>
+
+
+<!--Child Combinator-->
+<h5>child combinator</h5>
+<hr>
+<div>
+ <p>Java Developer</p>
+ <p>Web Developer</p>
+ <p>J2EE Developer</p>
+ <span>
+     <p>sql Developer</p>
+ </span>
+ <p>Python Developer</p>
+</div>
+
+
+
+<!--Position-->
+<div class="pos">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, libero neque,</p>
+
+<p class="one">Todays topic is about combinator</p>
+<p class="two">lorem ipsum dolor sit amet.<span class="special">this is span</span></p>
+</div>
+
+<button class="button">Nav Button</button>
+
+    </body>
+</html>
